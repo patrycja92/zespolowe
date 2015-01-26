@@ -104,7 +104,7 @@ class TransactionsController extends AppController {
  */
 	public function delete($id = null) {
 		$this->Transaction->id = $id;
-		if (!$this->Transaction->exists()) {
+		if (!$this->Transaction->exists($id)) {
 			throw new NotFoundException(__('Invalid transaction'));
 		}
 		$this->request->allowMethod('post', 'delete');

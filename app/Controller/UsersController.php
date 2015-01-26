@@ -48,18 +48,12 @@ class UsersController extends AppController {
  
 	public function index($userID = null) {
             if($userID == null){
-                if($this->sprawdzam_dostep(1)){
+                if($this->sprawdzam_dostep(1) || $this->sprawdzam_dostep(2)){
 			$this->User->recursive = 0;
 			$this->set('users', $this->Paginator->paginate());
                 }
-            } else if ($userID == $this->User->id) {
-			$this->User->recursive = 0;
-			$this->set('view/'.$this->User->id, $this->Paginator->paginate());
-
             }
-
-	}
-
+        }
 /**
  * view method
  *
@@ -67,8 +61,8 @@ class UsersController extends AppController {
  * @param string $id
  * @return void
  */
-	public function view($id = null, $isPermited = false) {
-		if($this->sprawdzam_dostep(1) || $this->Auth->user('id') == $id)
+	public function view($id = null) {
+		if($this->sprawdzam_dostep(1))
 		{
 			if (!$this->User->exists($id)) {
 				throw new NotFoundException(__('Invalid user'));
@@ -87,8 +81,7 @@ class UsersController extends AppController {
  */
 	public function add() {
 	
-		if($this->sprawdzam_dostep(1))
-		{
+		if($this->sprawdzam_dostep(1)){
 			if ($this->request->is('post')) {
 				$this->User->create();
 				if ($this->User->save($this->request->data)) {
