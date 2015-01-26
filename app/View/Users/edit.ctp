@@ -14,6 +14,7 @@
 		echo $this->Form->input('privilages');
 		echo $this->Form->input('address');
 		echo $this->Form->input('phone');
+                echo $this->Form->input('created',array())
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

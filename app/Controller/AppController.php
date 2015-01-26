@@ -34,6 +34,7 @@ class AppController extends Controller {
 	public $components = array(
         'Cookie', 
 		'Session',
+<<<<<<< HEAD
 		'Auth' => array (
 			'loginRedirect' => array('controller' => 'users' , 'action' => 'add' ),
 			'logoutRedirect' => array (
@@ -42,6 +43,17 @@ class AppController extends Controller {
 			
 		)
 	
+=======
+//        'Auth' => array (
+//			'loginRedirect' => array('controller' => 'users' , 'action' => 'add' ),
+//			'logoutRedirect' => array (
+//				'controller' => 'users',
+//				'action' => 'login'		
+//			),
+//		),
+      
+		
+>>>>>>> 0f1b48f33ea5443228732afcfca179b6c11517cc
 	);
 	
 	protected function sprawdzam_dostep($przywilej)

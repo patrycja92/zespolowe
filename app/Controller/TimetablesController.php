@@ -55,7 +55,7 @@ class TimetablesController extends AppController {
 				$this->Session->setFlash(__('The timetable could not be saved. Please, try again.'));
 			}
 		}
-		$users = $this->Timetable->User->find('list');
+		$users = $this->Timetable->Users->find('list');
 		$this->set(compact('users'));
 	}
 
@@ -81,7 +81,7 @@ class TimetablesController extends AppController {
 			$options = array('conditions' => array('Timetable.' . $this->Timetable->primaryKey => $id));
 			$this->request->data = $this->Timetable->find('first', $options);
 		}
-		$users = $this->Timetable->User->find('list');
+		$users = $this->Timetable->Users->find('list');
 		$this->set(compact('users'));
 	}
 

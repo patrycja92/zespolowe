@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 1422284743
 a:2:{s:4:"name";a:9:{s:32:"9d8383c9b3f19f8840cb39f9c086370b";s:11:"`zespolowe`";s:32:"84aed5ca7734df237971a8964bd0217a";s:11:"`User`.`id`";s:32:"441e6eaad1b5f34da125c63e3ecd7702";s:17:"`User`.`username`";s:32:"f94a437fb7858e092079378f93ef2c71";s:7:"`users`";s:32:"eb9b37fa6fe3e5c49f921ddcd721b306";s:6:"`User`";s:32:"926baf035bf69ef46493b64e77fa31da";s:12:"`timetables`";s:32:"8a48313fa0828a6f3f49de4285307a33";s:16:"`Timetable`.`id`";s:32:"749213bd58a0bf4d19b808b4c7105726";s:11:"`Timetable`";s:32:"b3aef1ed8acd1aa751cacc8e6ea2820a";s:14:"`transactions`";}s:6:"fields";a:2:{s:32:"5c8e9cb65f3be7340330f851bb4aa406";a:2:{i:0;s:11:"`User`.`id`";i:1;s:17:"`User`.`username`";}s:32:"966c054f03074454c7d971441fe8cbfe";a:1:{i:0;s:16:"`Timetable`.`id`";}}}
+=======
+1422275916
+a:2:{s:4:"name";a:5:{s:32:"9d8383c9b3f19f8840cb39f9c086370b";s:11:"`zespolowe`";s:32:"47eb7bb09414c64f779510914712b6ee";s:7:"`count`";s:32:"f94a437fb7858e092079378f93ef2c71";s:7:"`users`";s:32:"84aed5ca7734df237971a8964bd0217a";s:11:"`User`.`id`";s:32:"eb9b37fa6fe3e5c49f921ddcd721b306";s:6:"`User`";}s:6:"fields";a:1:{s:32:"ce21b686fc61e46f5e5da00325338ee5";a:1:{i:0;s:19:"COUNT(*) AS `count`";}}}
+>>>>>>> 0f1b48f33ea5443228732afcfca179b6c11517cc
