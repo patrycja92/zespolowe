@@ -49,9 +49,11 @@ class TransactionsController extends AppController {
                 if($userID != null ) {
                     $options = array('conditions' => array('id' => $this->Auth->user('id')));
                     $users = $this->Transaction->User->find('list', $options);
-                    $timetables = $this->Transaction->Timetable->find('list',$options);
+                    $options = array('conditions' => array('user_id' => $this->Auth->user('id')));
+                    $timetables = $this->Transaction->Timetable->find('list', $options);
                 } else {
                     $users = $this->Transaction->User->find('list');
+                    $timetables = $this->Transaction->Timetable->find('list');
                 }
 
 		if ($this->request->is('post')) {

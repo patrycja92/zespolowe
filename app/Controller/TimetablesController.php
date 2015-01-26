@@ -53,6 +53,7 @@ class TimetablesController extends AppController {
  * @return void
  */
 	public function add() {
+            
 		if ($this->request->is('post')) {
 			$this->Timetable->create();
 			if ($this->Timetable->save($this->request->data)) {
@@ -62,7 +63,8 @@ class TimetablesController extends AppController {
 				$this->Session->setFlash(__('The timetable could not be saved. Please, try again.'));
 			}
 		}
-		$users = $this->Timetable->User->find('list');
+                $options = array('conditions' => array('id' => $this->Auth->user('id')));
+		$users = $this->Timetable->User->find('list', $options);
 		$this->set(compact('users'));
 	}
 
