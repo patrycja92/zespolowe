@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS `transactions` (
   `user_id` INT NOT NULL,
   `timetable_id` INT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `fk_users` (`users_id` ASC),
+  INDEX `fk_users` (`user_id` ASC),
   INDEX `fk_timetables`` (`timetable_id` ASC),
   CONSTRAINT `fk_users`
     FOREIGN KEY (`user_id`)
