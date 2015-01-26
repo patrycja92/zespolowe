@@ -23,8 +23,13 @@ class TransactionsController extends AppController {
      * @return void
      */
     public function index() {
-        $this->Transaction->recursive = 0;
-        $this->set('transactions', $this->Paginator->paginate());
+        if ( $this->sprawdzam_dostep(3)){
+             $this->Transaction->recursive = 0;
+             $this->set('transactions', $this->Paginator->paginate());
+        } else {
+            
+        }
+       
     }
 
     /**

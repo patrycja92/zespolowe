@@ -6,6 +6,7 @@
 #################################
 /nbproject
 .idea
+/app/tmp
 
 # OS generated files #
 ######################

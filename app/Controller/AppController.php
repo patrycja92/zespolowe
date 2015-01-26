@@ -46,7 +46,7 @@ class AppController extends Controller {
 	{
 		if($this->Auth->loggedIn())
 		{
-			if($przywilej >= $this->Auth->user('privilages'))
+			if($przywilej == $this->Auth->user('privilages'))
                         return true;
 			
 		}
