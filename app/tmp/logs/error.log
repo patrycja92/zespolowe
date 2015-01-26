@@ -468,3 +468,123 @@ Request URL: /zespolowe2/zespolowe/investment/
 Stack Trace:
 #0 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-01-26 11:41:44 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'last_login' doesn't have a default value
+Request URL: /zespolowe2/zespolowe/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp\www\zespolowe2\zespolowe\app\Controller\UsersController.php(78): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 11:50:34 Error: [MissingControllerException] Controller class TimetableController could not be found.
+Exception Attributes: array (
+  'class' => 'TimetableController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe2/zespolowe/timetable/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 11:50:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Timetable.users_id' in 'on clause'
+Request URL: /zespolowe2/zespolowe/timetables/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: TimetablesController->index()
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#12 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-01-26 11:53:37 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php, line 58]
+2015-01-26 11:53:37 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /zespolowe2/zespolowe/timetables/add/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\zes...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\zes...', 58, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\zes...', 58, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 11:53:45 Error: [NotFoundException] Invalid timetable
+Request URL: /zespolowe2/zespolowe/timetables/delete/
+Stack Trace:
+#0 [internal function]: TimetablesController->delete()
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#4 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-26 11:53:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Timetable.users_id' in 'on clause'
+Request URL: /zespolowe2/zespolowe/timetables/index/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: TimetablesController->index()
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#12 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-01-26 11:54:00 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php, line 58]
+2015-01-26 11:54:00 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /zespolowe2/zespolowe/timetables/add/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\zes...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\zes...', 58, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\zes...', 58, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 11:56:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Timetable.users_id' in 'on clause'
+Request URL: /zespolowe2/zespolowe/timetables/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: TimetablesController->index()
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#12 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-01-26 11:56:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Timetable.users_id' in 'on clause'
+Request URL: /zespolowe2/zespolowe/timetables/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: TimetablesController->index()
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#12 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
