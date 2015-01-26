@@ -21,8 +21,15 @@ class TimetablesController extends AppController {
  * @return void
  */
 	public function index() {
-		$this->Timetable->recursive = 0;
+            if($this->sprawdzam_dostep(1)){
+                $this->Timetable->recursive = 0;
 		$this->set('timetables', $this->Paginator->paginate());
+            } else {
+                $this->Timetable->recursive = 0;
+                $options = array('conditions' => array('user_id' => $this->Auth->user('id')));
+                $this->set('timetables', $this->Timetable->find('all', $options),$this->Paginator->paginate());
+            }
+		
 	}
 
 /**
@@ -55,7 +62,7 @@ class TimetablesController extends AppController {
 				$this->Session->setFlash(__('The timetable could not be saved. Please, try again.'));
 			}
 		}
-		$users = $this->Timetable->Users->find('list');
+		$users = $this->Timetable->User->find('list');
 		$this->set(compact('users'));
 	}
 

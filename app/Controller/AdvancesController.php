@@ -21,8 +21,17 @@ class AdvancesController extends AppController {
  * @return void
  */
 	public function index() {
-		$this->Advance->recursive = 0;
+            if($this->sprawdzam_dostep(1)){
+                $this->Advance->recursive = 0;
 		$this->set('advances', $this->Paginator->paginate());
+            } else {
+                $this->Advance->recursive = 0;
+                $options = array('conditions' => array('user_id' => $this->Auth->user('id')));
+                $this->set('advances', $this->Advance->find('all', $options),$this->Paginator->paginate());
+            }
+		
+                
+                
 	}
 
 /**

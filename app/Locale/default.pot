@@ -20,7 +20,7 @@ msgstr ""
 
 #: Controller/AdvancesController.php:52;75
 msgid "The advance has been saved."
-msgstr ""
+msgstr "Prośba o zaliczkę została zgłoszona"
 
 #: Controller/AdvancesController.php:55;78
 msgid "The advance could not be saved. Please, try again."

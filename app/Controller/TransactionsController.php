@@ -45,7 +45,15 @@ class TransactionsController extends AppController {
  *
  * @return void
  */
-	public function add() {
+	public function add($userID = null) {
+                if($userID != null ) {
+                    $options = array('conditions' => array('id' => $this->Auth->user('id')));
+                    $users = $this->Transaction->User->find('list', $options);
+                    $timetables = $this->Transaction->Timetable->find('list',$options);
+                } else {
+                    $users = $this->Transaction->User->find('list');
+                }
+
 		if ($this->request->is('post')) {
 			$this->Transaction->create();
 			if ($this->Transaction->save($this->request->data)) {
@@ -55,8 +63,8 @@ class TransactionsController extends AppController {
 				$this->Session->setFlash(__('The transaction could not be saved. Please, try again.'));
 			}
 		}
-		$users = $this->Transaction->User->find('list');
-		$timetables = $this->Transaction->Timetable->find('list');
+		
+		
 		$this->set(compact('users', 'timetables'));
 	}
 

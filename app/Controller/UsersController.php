@@ -15,17 +15,15 @@ class UsersController extends AppController {
  */
 	public $components = array('Paginator');
 	public function login() {
-        if ($this->Auth->loggedIn()) { 
-                 $this->redirect(array('controller' => 'users', 'action' => 'add'));
-		}
 		if ($this->request->is('post')) {
 			if ($this->Auth->login()) { 
+                            
 				//$this->request->data['User']['password'] = $this->Auth->password($this->request->data['User']['password']);
 				$this->User->id = $this->Auth->user('id');
+                                $this->User->investment_id = $this->Auth->user('investment_id');
 				$this->User->saveField('last_login', date('Y-m-d H:i:s'));
 				$this->Session->setFlash('Zalogowany');
-				$this->redirect($this->Auth->redirect(array('controller'=>'users' , 'action'=>'add')));
-				
+                                return $this->redirect($this->Auth->redirectUrl());
 			} else {
 				$this->Session->setFlash('Nieprawidłowy login lub hasło'); 
 			}
@@ -48,12 +46,18 @@ class UsersController extends AppController {
  * @return void
  */
  
-	public function index() {
-		if($this->sprawdzam_dostep(1))
-		{
+	public function index($userID = null) {
+            if($userID == null){
+                if($this->sprawdzam_dostep(1)){
 			$this->User->recursive = 0;
 			$this->set('users', $this->Paginator->paginate());
-		}
+                }
+            } else if ($userID == $this->User->id) {
+			$this->User->recursive = 0;
+			$this->set('view/'.$this->User->id, $this->Paginator->paginate());
+
+            }
+
 	}
 
 /**
@@ -63,15 +67,17 @@ class UsersController extends AppController {
  * @param string $id
  * @return void
  */
-	public function view($id = null) {
-		if($this->sprawdzam_dostep(1))
+	public function view($id = null, $isPermited = false) {
+		if($this->sprawdzam_dostep(1) || $this->Auth->user('id') == $id)
 		{
 			if (!$this->User->exists($id)) {
 				throw new NotFoundException(__('Invalid user'));
 			}
 			$options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
 			$this->set('user', $this->User->find('first', $options));
-		}
+		}else {
+                    $this->redirect(array('controller' => 'pages' , 'action' => 'display','denied'));
+                }
 	}
 
 /**

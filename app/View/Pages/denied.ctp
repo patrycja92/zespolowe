@@ -1,2 +1,2 @@
-<h1>BRAK DOSTEPU</h1>
+<p>Brak Dostępu do zasoby</p>
 

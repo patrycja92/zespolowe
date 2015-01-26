@@ -34,42 +34,23 @@ class AppController extends Controller {
 	public $components = array(
         'Cookie', 
 		'Session',
-<<<<<<< HEAD
 		'Auth' => array (
-			'loginRedirect' => array('controller' => 'users' , 'action' => 'add' ),
 			'logoutRedirect' => array (
 				'controller' => 'users',
 				'action' => 'login'),
 			
 		)
-	
-=======
-//        'Auth' => array (
-//			'loginRedirect' => array('controller' => 'users' , 'action' => 'add' ),
-//			'logoutRedirect' => array (
-//				'controller' => 'users',
-//				'action' => 'login'		
-//			),
-//		),
-      
-		
->>>>>>> 0f1b48f33ea5443228732afcfca179b6c11517cc
 	);
-	
+        
 	protected function sprawdzam_dostep($przywilej)
 	{
 		if($this->Auth->loggedIn())
 		{
 			if($przywilej >= $this->Auth->user('privilages'))
-				return true;
-			$this->redirect(array('controller' => 'pages' , 'action' => 'display','denied'));
-		}else
-		{
-			$this->redirect($this->Auth->redirect());
+                        return true;
 			
 		}
 		return false;
 	}
-
 }
 

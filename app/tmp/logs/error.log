@@ -1267,3 +1267,353 @@ Stack Trace:
 #9 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 >>>>>>> 0f1b48f33ea5443228732afcfca179b6c11517cc
 #10 {main}
+2015-01-26 15:21:58 Error: Fatal Error (4): syntax error, unexpected '<<' (T_SL), expecting ')' in [C:\wamp\www\zespolowe2\zespolowe\app\Controller\AppController.php, line 37]
+2015-01-26 15:21:58 Error: [FatalErrorException] syntax error, unexpected '<<' (T_SL), expecting ')'
+Request URL: /zespolowe2/zespolowe/transactions/add
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 37, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\zes...', 37, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:24:56 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php, line 58]
+2015-01-26 15:24:56 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /zespolowe2/zespolowe/timetables/add
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\zes...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\zes...', 58, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\zes...', 58, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:24:58 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php, line 58]
+2015-01-26 15:24:58 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /zespolowe2/zespolowe/timetables/add
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\zes...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\zes...', 58, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\zes...', 58, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:37:31 Error: [MissingViewException] View file "C:\wamp\www\zespolowe2\zespolowe\app\View\Pages\view\1.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\zespolowe2\\zespolowe\\app\\View\\Pages\\view\\1.ctp',
+)
+Request URL: /zespolowe2/zespolowe/pages/view/1
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\View.php(468): View->_getViewFileName('view/1')
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(954): View->render('view/1', NULL)
+#2 C:\wamp\www\zespolowe2\zespolowe\app\Controller\PagesController.php(69): Controller->render('view/1')
+#3 [internal function]: PagesController->display('view', '1')
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 15:48:30 Error: Fatal Error (1): Call to undefined method View::flash() in [C:\wamp\www\zespolowe2\zespolowe\app\View\Pages\denied.ctp, line 1]
+2015-01-26 15:48:30 Error: [FatalErrorException] Call to undefined method View::flash()
+Request URL: /zespolowe2/zespolowe/pages/denied
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\zes...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\zes...', 1, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\zes...', 1, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:50:42 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe2/zespolowe/view/1
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 15:53:33 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe2/zespolowe/view/1
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 15:53:38 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe2/zespolowe/user/view/1
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:00:42 Error: [NotFoundException] Invalid user
+Request URL: /zespolowe2/zespolowe/users/view/
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-26 16:13:11 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp\www\zespolowe2\zespolowe\app\Controller\UsersController.php, line 81]
+2015-01-26 16:13:11 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /zespolowe2/zespolowe/users/view/1
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 81)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 81, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\zes...', 81, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 16:13:57 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe2/zespolowe/view/1
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:16:35 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /zespolowe2/zespolowe/timetables/add
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('User')
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\View.php(837): HelperCollection->__isset('User')
+#2 C:\wamp\www\zespolowe2\zespolowe\app\View\Timetables\add.ctp(7): View->__get('User')
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\View.php(948): include('C:\wamp\www\zes...')
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\View.php(910): View->_evaluate('C:\wamp\www\zes...', Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\View.php(471): View->_render('C:\wamp\www\zes...')
+#6 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 16:17:12 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+Request URL: /zespolowe2/zespolowe/timetables/add
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Timetable), Array, Array)
+#4 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(51): Model->save(Array)
+#5 [internal function]: TimetablesController->add()
+#6 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#7 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 16:18:01 Error: Fatal Error (4): syntax error, unexpected '$id' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp\www\zespolowe2\zespolowe\app\View\Helper\UserHelper.php, line 3]
+2015-01-26 16:18:01 Error: [FatalErrorException] syntax error, unexpected '$id' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /zespolowe2/zespolowe/timetables/add
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 3, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\zes...', 3, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 16:18:10 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\wamp\www\zespolowe2\zespolowe\app\View\Helper\UserHelper.php, line 3]
+2015-01-26 16:18:10 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /zespolowe2/zespolowe/timetables/add
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 3, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\zes...', 3, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 16:18:17 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp\www\zespolowe2\zespolowe\app\View\Helper\UserHelper.php, line 3]
+2015-01-26 16:18:17 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /zespolowe2/zespolowe/timetables/add
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 3, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\zes...', 3, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 16:49:29 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Request URL: /zespolowe2/zespolowe/timetables/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(30): Model->find('first', Array)
+#7 [internal function]: TimetablesController->index()
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-26 16:49:54 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /zespolowe2/zespolowe/timetables/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('list', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(29): Model->find('list', Array)
+#7 [internal function]: TimetablesController->index()
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-26 16:52:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Model.field' in 'where clause'
+Request URL: /zespolowe2/zespolowe/timetables/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('list', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(29): Model->find('list', Array)
+#7 [internal function]: TimetablesController->index()
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-26 16:53:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Model.field' in 'where clause'
+Request URL: /zespolowe2/zespolowe/timetables/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('list', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(29): Model->find('list', Array)
+#7 [internal function]: TimetablesController->index()
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-26 16:55:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Model.field' in 'where clause'
+Request URL: /zespolowe2/zespolowe/timetables/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('list', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(29): Model->find('list', Array)
+#7 [internal function]: TimetablesController->index()
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-26 16:55:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Model.user_id' in 'where clause'
+Request URL: /zespolowe2/zespolowe/timetables/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('list', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(29): Model->find('list', Array)
+#7 [internal function]: TimetablesController->index()
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-26 16:55:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Timetables.user_id' in 'where clause'
+Request URL: /zespolowe2/zespolowe/timetables/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('list', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php(29): Model->find('list', Array)
+#7 [internal function]: TimetablesController->index()
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-26 17:07:00 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe2/zespolowe/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:07:29 Error: [MissingActionException] Action PagesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+)
+Request URL: /zespolowe2/zespolowe/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-26 17:08:36 Error: Fatal Error (1): Call to undefined function set() in [C:\wamp\www\zespolowe2\zespolowe\app\Controller\PagesController.php, line 78]
+2015-01-26 17:08:36 Error: [FatalErrorException] Call to undefined function set()
+Request URL: /zespolowe2/zespolowe/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\zes...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\zes...', 78, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\zes...', 78, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 17:13:26 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\zespolowe2\zespolowe\app\Controller\TimetablesController.php, line 30]
+2015-01-26 17:13:26 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /zespolowe2/zespolowe/timetables
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\zes...', 30, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\zes...', 30, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 17:16:35 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\zespolowe2\zespolowe\app\Controller\AdvancesController.php, line 30]
+2015-01-26 17:16:35 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /zespolowe2/zespolowe/advances
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\zes...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\zes...', 30, Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\zes...', 30, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 17:27:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+Request URL: /zespolowe2/zespolowe/transactions/add/1
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\wamp\www\zespolowe2\zespolowe\app\Controller\TransactionsController.php(51): Model->find('first', Array)
+#7 [internal function]: TransactionsController->add('1')
+#8 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TransactionsController), Array)
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TransactionsController), Object(CakeRequest))
+#11 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
