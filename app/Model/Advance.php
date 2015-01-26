@@ -16,9 +16,9 @@ class Advance extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Users' => array(
-			'className' => 'Users',
-			'foreignKey' => 'users_id',
+		'User' => array(
+			'className' => 'User',
+			'foreignKey' => 'user_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

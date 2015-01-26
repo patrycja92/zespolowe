@@ -17,7 +17,7 @@
 		<td><?php echo h($advance['Advance']['cash']); ?>&nbsp;</td>
 		<td><?php echo h($advance['Advance']['reason']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($advance['Users']['id'], array('controller' => 'users', 'action' => 'view', $advance['Users']['id'])); ?>
+			<?php echo $this->Html->link($advance['User']['id'], array('controller' => 'users', 'action' => 'view', $advance['User']['id'])); ?>
 		</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $advance['Advance']['id'])); ?>
@@ -42,11 +42,4 @@
 	?>
 	</div>
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Advance'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Users'), array('controller' => 'users', 'action' => 'add')); ?> </li>
-	</ul>
-</div>
+

@@ -20,10 +20,10 @@
 		<td><?php echo h($transaction['Transaction']['price']); ?>&nbsp;</td>
 		<td><?php echo h($transaction['Transaction']['date']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($transaction['Users']['id'], array('controller' => 'users', 'action' => 'view', $transaction['Users']['id'])); ?>
+			<?php echo $this->Html->link($transaction['User']['id'], array('controller' => 'users', 'action' => 'view', $transaction['User']['id'])); ?>
 		</td>
 		<td>
-			<?php echo $this->Html->link($transaction['Timetables']['id'], array('controller' => 'timetables', 'action' => 'view', $transaction['Timetables']['id'])); ?>
+			<?php echo $this->Html->link($transaction['Timetable']['id'], array('controller' => 'timetables', 'action' => 'view', $transaction['Timetable']['id'])); ?>
 		</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $transaction['Transaction']['id'])); ?>
@@ -48,13 +48,4 @@
 	?>
 	</div>
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Transaction'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Users'), array('controller' => 'users', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Timetables'), array('controller' => 'timetables', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Timetables'), array('controller' => 'timetables', 'action' => 'add')); ?> </li>
-	</ul>
-</div>
+

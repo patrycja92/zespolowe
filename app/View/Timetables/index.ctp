@@ -15,7 +15,7 @@
 		<td><?php echo h($timetable['Timetable']['id']); ?>&nbsp;</td>
 		<td><?php echo h($timetable['Timetable']['time']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($timetable['Users']['id'], array('controller' => 'users', 'action' => 'view', $timetable['Users']['id'])); ?>
+			<?php echo $this->Html->link($timetable['User']['id'], array('controller' => 'users', 'action' => 'view', $timetable['User']['id'])); ?>
 		</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $timetable['Timetable']['id'])); ?>
@@ -40,11 +40,4 @@
 	?>
 	</div>
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Timetable'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Users'), array('controller' => 'users', 'action' => 'add')); ?> </li>
-	</ul>
-</div>
+

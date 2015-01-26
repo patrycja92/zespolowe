@@ -434,3 +434,550 @@ Stack Trace:
 #3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-01-26 12:15:01 Error: Fatal Error (4): syntax error, unexpected ''authenticate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 42]
+2015-01-26 12:15:01 Error: [FatalErrorException] syntax error, unexpected ''authenticate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:15:37 Error: Fatal Error (4): syntax error, unexpected ''authenticate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 42]
+2015-01-26 12:15:37 Error: [FatalErrorException] syntax error, unexpected ''authenticate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:15:40 Error: Fatal Error (4): syntax error, unexpected ''authenticate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 42]
+2015-01-26 12:15:40 Error: [FatalErrorException] syntax error, unexpected ''authenticate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:15:53 Error: Fatal Error (4): syntax error, unexpected ''authenticate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 42]
+2015-01-26 12:15:53 Error: [FatalErrorException] syntax error, unexpected ''authenticate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:15:55 Error: Fatal Error (4): syntax error, unexpected ''authenticate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 42]
+2015-01-26 12:15:55 Error: [FatalErrorException] syntax error, unexpected ''authenticate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 42, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:17:48 Error: Fatal Error (4): syntax error, unexpected ')', expecting variable (T_VARIABLE) in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 49]
+2015-01-26 12:17:48 Error: [FatalErrorException] syntax error, unexpected ')', expecting variable (T_VARIABLE)
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 49, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 49, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:25:11 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 47]
+2015-01-26 12:25:11 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:25:32 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 47]
+2015-01-26 12:25:32 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:25:56 Error: Fatal Error (4): syntax error, unexpected '}', expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 49]
+2015-01-26 12:25:56 Error: [FatalErrorException] syntax error, unexpected '}', expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 49, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 49, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:26:22 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 47]
+2015-01-26 12:26:22 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:34:18 Error: Fatal Error (1): Call to a member function loggedIn() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 18]
+2015-01-26 12:34:18 Error: [FatalErrorException] Call to a member function loggedIn() on null
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:38:51 Error: Fatal Error (1): Call to a member function loggedIn() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 18]
+2015-01-26 12:38:51 Error: [FatalErrorException] Call to a member function loggedIn() on null
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:40:08 Error: Fatal Error (1): Call to a member function loggedIn() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 18]
+2015-01-26 12:40:08 Error: [FatalErrorException] Call to a member function loggedIn() on null
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:54:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Timetable.users_id' in 'on clause'
+Request URL: /zespolowe/timetables/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: TimetablesController->index()
+#9 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#10 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#12 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-01-26 12:54:09 Error: Fatal Error (1): Call to a member function find() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php, line 58]
+2015-01-26 12:54:09 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 58, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 58, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 12:59:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`timetables`, CONSTRAINT `fk_users_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Timetable), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(51): Model->save(Array)
+#5 [internal function]: TimetablesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 13:00:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`timetables`, CONSTRAINT `fk_users_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Timetable), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(51): Model->save(Array)
+#5 [internal function]: TimetablesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 13:02:20 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`timetables`, CONSTRAINT `fk_users_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Timetable), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(51): Model->save(Array)
+#5 [internal function]: TimetablesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 13:02:41 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`timetables`, CONSTRAINT `fk_users_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Timetable), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(51): Model->save(Array)
+#5 [internal function]: TimetablesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 13:03:41 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`timetables`, CONSTRAINT `fk_users_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Timetable), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(51): Model->save(Array)
+#5 [internal function]: TimetablesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 13:03:46 Error: [MissingControllerException] Controller class TimetablewsController could not be found.
+Exception Attributes: array (
+  'class' => 'TimetablewsController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/timetablews
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 13:03:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Timetable.users_id' in 'on clause'
+Request URL: /zespolowe/timetables
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: TimetablesController->index()
+#9 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#10 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#12 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-01-26 13:04:00 Error: Fatal Error (1): Call to a member function find() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php, line 58]
+2015-01-26 13:04:00 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 58, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 58, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 14:28:41 Error: Fatal Error (4): syntax error, unexpected '}' in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 29]
+2015-01-26 14:28:41 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /zespolowe/users/logout
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 29, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 29, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 14:30:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`timetables`, CONSTRAINT `fk_users_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Timetable), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(51): Model->save(Array)
+#5 [internal function]: TimetablesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 14:34:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`timetables`, CONSTRAINT `fk_users_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Timetable), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(51): Model->save(Array)
+#5 [internal function]: TimetablesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 14:35:08 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`timetables`, CONSTRAINT `fk_users_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Timetable), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(51): Model->save(Array)
+#5 [internal function]: TimetablesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 14:35:15 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`timetables`, CONSTRAINT `fk_users_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/timetables/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Timetable), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(51): Model->save(Array)
+#5 [internal function]: TimetablesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 14:35:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Timetable.users_id' in 'on clause'
+Request URL: /zespolowe/timetables
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Timetab...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Timetab...', Array, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Timetab...', false)
+#4 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Timetable), Array)
+#5 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 E:\XAMPP\htdocs\zespolowe\app\Controller\TimetablesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: TimetablesController->index()
+#9 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TimetablesController), Array)
+#10 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TimetablesController), Object(CakeRequest))
+#12 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-01-26 14:39:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Advance.users_id' in 'on clause'
+Request URL: /zespolowe/advances
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Advance...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Advance...', Array, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Advance...', false)
+#4 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Advance), Array)
+#5 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 E:\XAMPP\htdocs\zespolowe\app\Controller\AdvancesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: AdvancesController->index()
+#9 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AdvancesController), Array)
+#10 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AdvancesController), Object(CakeRequest))
+#12 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-01-26 14:40:48 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`advances`, CONSTRAINT `fk_advances` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/advances/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Advance), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\AdvancesController.php(51): Model->save(Array)
+#5 [internal function]: AdvancesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AdvancesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AdvancesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 14:41:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`advances`, CONSTRAINT `fk_advances` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/advances/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Advance), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\AdvancesController.php(51): Model->save(Array)
+#5 [internal function]: AdvancesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AdvancesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AdvancesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 14:41:32 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`advances`, CONSTRAINT `fk_advances` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/advances/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Advance), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\AdvancesController.php(51): Model->save(Array)
+#5 [internal function]: AdvancesController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AdvancesController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AdvancesController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 15:54:33 Error: Fatal Error (4): syntax error, unexpected '<' in [E:\XAMPP\htdocs\zespolowe\app\View\Elements\mainmenu.ctp, line 13]
+2015-01-26 15:54:33 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /zespolowe/users
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 13, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 13, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:55:16 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [E:\XAMPP\htdocs\zespolowe\app\View\Elements\mainmenu.ctp, line 30]
+2015-01-26 15:55:16 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /zespolowe/users
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 30, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 30, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:55:42 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [E:\XAMPP\htdocs\zespolowe\app\View\Elements\mainmenu.ctp, line 30]
+2015-01-26 15:55:42 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /zespolowe/users
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 30, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 30, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:56:14 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [E:\XAMPP\htdocs\zespolowe\app\View\Elements\mainmenu.ctp, line 26]
+2015-01-26 15:56:14 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /zespolowe/users
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 26, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 26, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:57:10 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [E:\XAMPP\htdocs\zespolowe\app\View\Elements\mainmenu.ctp, line 30]
+2015-01-26 15:57:10 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /zespolowe/users
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 30, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 30, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:57:31 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [E:\XAMPP\htdocs\zespolowe\app\View\Elements\mainmenu.ctp, line 24]
+2015-01-26 15:57:31 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /zespolowe/users
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 24, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 24, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:58:36 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [E:\XAMPP\htdocs\zespolowe\app\View\Elements\mainmenu.ctp, line 24]
+2015-01-26 15:58:36 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /zespolowe/users
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 24, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 24, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:59:02 Error: Fatal Error (4): syntax error, unexpected '||' (T_BOOLEAN_OR) in [E:\XAMPP\htdocs\zespolowe\app\View\Elements\mainmenu.ctp, line 24]
+2015-01-26 15:59:02 Error: [FatalErrorException] syntax error, unexpected '||' (T_BOOLEAN_OR)
+Request URL: /zespolowe/users
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 24, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 24, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-26 15:59:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Transaction.users_id' in 'on clause'
+Request URL: /zespolowe/transactions
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Transac...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Transac...', Array, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Transac...', false)
+#4 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Transaction), Array)
+#5 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 E:\XAMPP\htdocs\zespolowe\app\Controller\TransactionsController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: TransactionsController->index()
+#9 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TransactionsController), Array)
+#10 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TransactionsController), Object(CakeRequest))
+#12 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-01-26 16:00:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Transaction.timetables_id' in 'on clause'
+Request URL: /zespolowe/transactions
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Transac...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Transac...', Array, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Transac...', false)
+#4 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Transaction), Array)
+#5 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 E:\XAMPP\htdocs\zespolowe\app\Controller\TransactionsController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: TransactionsController->index()
+#9 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TransactionsController), Array)
+#10 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TransactionsController), Object(CakeRequest))
+#12 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-01-26 16:01:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`transactions`, CONSTRAINT `fk_users_fk` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/transactions/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Transaction), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TransactionsController.php(51): Model->save(Array)
+#5 [internal function]: TransactionsController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TransactionsController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TransactionsController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-01-26 16:02:14 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`zespolowe`.`transactions`, CONSTRAINT `fk_users_fk` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /zespolowe/transactions/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ze...', Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ze...')
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Transaction), Array, Array)
+#4 E:\XAMPP\htdocs\zespolowe\app\Controller\TransactionsController.php(51): Model->save(Array)
+#5 [internal function]: TransactionsController->add()
+#6 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TransactionsController), Array)
+#7 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TransactionsController), Object(CakeRequest))
+#9 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

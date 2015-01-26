@@ -18,14 +18,4 @@
 		</dd>
 	</dl>
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('Edit Timetable'), array('action' => 'edit', $timetable['Timetable']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Timetable'), array('action' => 'delete', $timetable['Timetable']['id']), array(), __('Are you sure you want to delete # %s?', $timetable['Timetable']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Timetables'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Timetable'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Users'), array('controller' => 'users', 'action' => 'add')); ?> </li>
-	</ul>
-</div>
+

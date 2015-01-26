@@ -16,9 +16,9 @@ class Timetable extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Users' => array(
+		'User' => array(
 			'className' => 'Users',
-			'foreignKey' => 'users_id',
+			'foreignKey' => 'user_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

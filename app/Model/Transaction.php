@@ -24,16 +24,16 @@ class Transaction extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Users' => array(
-			'className' => 'Users',
-			'foreignKey' => 'users_id',
+		'User' => array(
+			'className' => 'User',
+			'foreignKey' => 'user_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
 		),
-		'Timetables' => array(
-			'className' => 'Timetables',
-			'foreignKey' => 'timetables_id',
+		'Timetable' => array(
+			'className' => 'Timetable',
+			'foreignKey' => 'timetable_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
