@@ -4,7 +4,7 @@
 		<legend><?php echo __('Add Timetable'); ?></legend>
 	<?php
 		echo $this->Form->input('time');
-		echo $this->Form->input('user_id');
+                echo $this->Form->input('user_id',  array('type' => 'hidden', 'value' =>
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
