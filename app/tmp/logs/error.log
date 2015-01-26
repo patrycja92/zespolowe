@@ -1,0 +1,436 @@
+2015-01-24 16:13:01 Error: Fatal Error (1): Call to a member function find() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\InvestmentsController.php, line 59]
+2015-01-24 16:13:01 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /zespolowe/investments/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 59, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 59, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 16:54:43 Error: Fatal Error (1): Call to a member function find() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\InvestmentsController.php, line 59]
+2015-01-24 16:54:43 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /zespolowe/investments/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 59, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 59, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 16:57:41 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /zespolowe/users/login
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-24 16:59:53 Error: Fatal Error (1): Call to a member function loggedIn() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 25]
+2015-01-24 16:59:53 Error: [FatalErrorException] Call to a member function loggedIn() on null
+Request URL: /zespolowe/users/login
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 25, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 25, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 17:02:22 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /zespolowe/users
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-24 17:03:45 Error: Fatal Error (1): Call to a member function find() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\InvestmentsController.php, line 59]
+2015-01-24 17:03:45 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /zespolowe/investments/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 59, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 59, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 17:27:59 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-24 17:31:13 Error: Fatal Error (1): Call to a member function loggedIn() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 18]
+2015-01-24 17:31:13 Error: [FatalErrorException] Call to a member function loggedIn() on null
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 17:32:57 Error: Fatal Error (4): syntax error, unexpected '}', expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 38]
+2015-01-24 17:32:57 Error: [FatalErrorException] syntax error, unexpected '}', expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 38, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 38, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 17:33:36 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 38]
+2015-01-24 17:33:36 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 38, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 38, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 17:37:33 Error: Fatal Error (1): Call to a member function setFlash() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 32]
+2015-01-24 17:37:33 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 32, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 32, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 17:49:28 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [E:\XAMPP\htdocs\zespolowe\app\Model\User.php, line 20]
+2015-01-24 17:49:28 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /zespolowe/users/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', 'E:\\XAMPP\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', 'E:\\XAMPP\\htdocs...', 20, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', 'E:\\XAMPP\\htdocs...', 20, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 17:50:41 Error: Fatal Error (1): Call to a member function loggedIn() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 18]
+2015-01-24 17:50:41 Error: [FatalErrorException] Call to a member function loggedIn() on null
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 17:50:43 Error: Fatal Error (1): Call to a member function loggedIn() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 18]
+2015-01-24 17:50:43 Error: [FatalErrorException] Call to a member function loggedIn() on null
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 18:11:08 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 34]
+2015-01-24 18:11:08 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 34, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 34, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 18:11:38 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 48]
+2015-01-24 18:11:38 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 48, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 48, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 18:29:46 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/login
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:29:49 Error: Fatal Error (1): Call to a member function loggedIn() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 18]
+2015-01-24 18:29:49 Error: [FatalErrorException] Call to a member function loggedIn() on null
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 18:37:05 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/login
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:37:19 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/login
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:45:02 Error: Fatal Error (1): Class 'SimplePasswordHasher' not found in [E:\XAMPP\htdocs\zespolowe\app\Model\User.php, line 20]
+2015-01-24 18:45:02 Error: [FatalErrorException] Class 'SimplePasswordHasher' not found
+Request URL: /zespolowe/users/add
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'SimplePa...', 'E:\\XAMPP\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SimplePa...', 'E:\\XAMPP\\htdocs...', 20, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'SimplePa...', 'E:\\XAMPP\\htdocs...', 20, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 18:46:25 Error: Fatal Error (1): Call to a member function loggedIn() on null in [E:\XAMPP\htdocs\zespolowe\app\Controller\UsersController.php, line 18]
+2015-01-24 18:46:25 Error: [FatalErrorException] Call to a member function loggedIn() on null
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\XAMPP\\htdocs...', 18, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 18:52:43 Error: Fatal Error (4): syntax error, unexpected '}', expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 47]
+2015-01-24 18:52:43 Error: [FatalErrorException] syntax error, unexpected '}', expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 18:53:17 Error: Fatal Error (4): syntax error, unexpected '}', expecting variable (T_VARIABLE) in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 47]
+2015-01-24 18:53:17 Error: [FatalErrorException] syntax error, unexpected '}', expecting variable (T_VARIABLE)
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 47, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 18:53:36 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/index
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:54:02 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/index
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:54:15 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/index
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:54:18 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/index
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:55:14 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/index
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:55:23 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/index
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:55:29 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/index
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:56:00 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/index
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:56:06 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/index
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:57:50 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe/index
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-24 18:58:47 Error: [NotFoundException] Invalid user
+Request URL: /zespolowe/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-24 19:00:28 Error: Fatal Error (4): syntax error, unexpected ''Auth'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\Controller\AppController.php, line 37]
+2015-01-24 19:00:28 Error: [FatalErrorException] syntax error, unexpected ''Auth'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /zespolowe/users/view
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 37, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 37, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 19:01:01 Error: [NotFoundException] Invalid user
+Request URL: /zespolowe/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-24 19:01:32 Error: [NotFoundException] Invalid user
+Request URL: /zespolowe/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-24 19:01:33 Error: [NotFoundException] Invalid user
+Request URL: /zespolowe/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 E:\XAMPP\htdocs\zespolowe\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 E:\XAMPP\htdocs\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-24 19:14:06 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\View\Layouts\default.ctp, line 45]
+2015-01-24 19:14:06 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 45, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 45, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 19:14:19 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [E:\XAMPP\htdocs\zespolowe\app\View\Layouts\default.ctp, line 45]
+2015-01-24 19:14:19 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 45, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 45, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 19:14:32 Error: Fatal Error (4): syntax error, unexpected end of file in [E:\XAMPP\htdocs\zespolowe\app\View\Layouts\default.ctp, line 70]
+2015-01-24 19:14:32 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 19:14:44 Error: Fatal Error (4): syntax error, unexpected end of file in [E:\XAMPP\htdocs\zespolowe\app\View\Layouts\default.ctp, line 70]
+2015-01-24 19:14:44 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 19:14:45 Error: Fatal Error (4): syntax error, unexpected end of file in [E:\XAMPP\htdocs\zespolowe\app\View\Layouts\default.ctp, line 70]
+2015-01-24 19:14:45 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-24 19:14:45 Error: Fatal Error (4): syntax error, unexpected end of file in [E:\XAMPP\htdocs\zespolowe\app\View\Layouts\default.ctp, line 70]
+2015-01-24 19:14:45 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /zespolowe/
+Stack Trace:
+#0 E:\XAMPP\htdocs\zespolowe\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70, Array)
+#2 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\XAMPP\\htdocs...', 70, Array)
+#3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `investments` (
   `description` VARCHAR(45) NOT NULL,
   `bid` INT NOT NULL,
   `price` INT NOT NULL,
-  `users_id` INT NOT NULL,
+  `user_id` INT NOT NULL,
   PRIMARY KEY (`id`),
   INDEX `fk_users` (`user_id` ASC),
   CONSTRAINT `fk_users`
