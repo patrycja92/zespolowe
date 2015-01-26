@@ -34,13 +34,13 @@ class AppController extends Controller {
 	public $components = array(
         'Cookie', 
 		'Session',
-        'Auth' => array (
-			'loginRedirect' => array('controller' => 'users' , 'action' => 'add' ),
-			'logoutRedirect' => array (
-				'controller' => 'users',
-				'action' => 'login'		
-			),
-		),
+//        'Auth' => array (
+//			'loginRedirect' => array('controller' => 'users' , 'action' => 'add' ),
+//			'logoutRedirect' => array (
+//				'controller' => 'users',
+//				'action' => 'login'		
+//			),
+//		),
       
 		
 	);

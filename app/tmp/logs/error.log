@@ -434,3 +434,37 @@ Stack Trace:
 #3 E:\XAMPP\htdocs\zespolowe\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-01-26 10:43:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /zespolowe2/zespolowe/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(3551): Model->setSource('users')
+#5 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#6 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\wamp\www\zespolowe2\zespolowe\app\View\Users\login.ctp(5): FormHelper->create('User')
+#9 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\View.php(948): include('C:\wamp\www\zes...')
+#10 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\View.php(910): View->_evaluate('C:\wamp\www\zes...', Array)
+#11 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\View\View.php(471): View->_render('C:\wamp\www\zes...')
+#12 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\wamp\www\zespolowe2\zespolowe\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-01-26 11:25:53 Error: [MissingControllerException] Controller class InvestmentController could not be found.
+Exception Attributes: array (
+  'class' => 'InvestmentController',
+  'plugin' => NULL,
+)
+Request URL: /zespolowe2/zespolowe/investment/
+Stack Trace:
+#0 C:\wamp\www\zespolowe2\zespolowe\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
