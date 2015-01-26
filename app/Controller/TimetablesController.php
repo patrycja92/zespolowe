@@ -26,7 +26,7 @@ class TimetablesController extends AppController {
 		$this->set('timetables', $this->Paginator->paginate());
             } else {
                 $this->Timetable->recursive = 0;
-                $options = array('conditions' => array('user_id' => $this->Auth->user('id')));
+                $options = array( 'conditions' => array('user_id' => $this->Auth->user('id')));
                 $this->set('timetables', $this->Timetable->find('all', $options),$this->Paginator->paginate());
             }
 		

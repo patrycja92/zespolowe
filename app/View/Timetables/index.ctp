@@ -15,7 +15,7 @@
 		<td><?php echo h($timetable['Timetable']['id']); ?>&nbsp;</td>
 		<td><?php echo h($timetable['Timetable']['time']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($timetable['User']['id'], array('controller' => 'users', 'action' => 'view', $timetable['User']['id'])); ?>
+			<?php echo $this->Html->link($timetable['User']['username'], array('controller' => 'users', 'action' => 'view', $timetable['User']['username'])); ?>
 		</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $timetable['Timetable']['id'])); ?>

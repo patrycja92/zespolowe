@@ -13,7 +13,7 @@
 		</dd>
 		<dt><?php echo __('Users'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($timetable['Users']['id'], array('controller' => 'users', 'action' => 'view', $timetable['Users']['id'])); ?>
+			<?php echo $this->Html->link($timetable['User']['username'], array('controller' => 'users', 'action' => 'view', $timetable['User']['username'])); ?>
 			&nbsp;
 		</dd>
 	</dl>

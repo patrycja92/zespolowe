@@ -20,7 +20,7 @@ class Advance extends AppModel {
 			'className' => 'User',
 			'foreignKey' => 'user_id',
 			'conditions' => '',
-			'fields' => '',
+			'fields' => 'username',
 			'order' => ''
 		)
 	);

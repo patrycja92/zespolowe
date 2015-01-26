@@ -35,7 +35,8 @@ class Transaction extends AppModel {
 			'className' => 'Timetable',
 			'foreignKey' => 'timetable_id',
 			'conditions' => '',
-			'fields' => '',
+                        'with' => 'users',
+			'fields' => 'user.username,id',
 			'order' => ''
 		)
 	);

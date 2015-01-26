@@ -20,10 +20,10 @@
 		<td><?php echo h($transaction['Transaction']['price']); ?>&nbsp;</td>
 		<td><?php echo h($transaction['Transaction']['date']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($transaction['User']['id'], array('controller' => 'users', 'action' => 'view', $transaction['User']['id'])); ?>
+			<?php echo $this->Html->link($transaction['User']['username'], array('controller' => 'users', 'action' => 'view', $transaction['User']['username'])); ?>
 		</td>
 		<td>
-			<?php echo $this->Html->link($transaction['Timetable']['id'], array('controller' => 'timetables', 'action' => 'view', $transaction['Timetable']['id'])); ?>
+			<?php echo $this->Html->link($transaction['Timetable']['id'].' ('.$transaction['User']['username'].') ', array('controller' => 'timetables', 'action' => 'view', $transaction['Timetable']['id'])); ?>
 		</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $transaction['Transaction']['id'])); ?>

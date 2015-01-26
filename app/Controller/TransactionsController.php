@@ -1,5 +1,7 @@
 <?php
+
 App::uses('AppController', 'Controller');
+
 /**
  * Transactions Controller
  *
@@ -8,113 +10,124 @@ App::uses('AppController', 'Controller');
  */
 class TransactionsController extends AppController {
 
-/**
- * Components
- *
- * @var array
- */
-	public $components = array('Paginator');
+    /**
+     * Components
+     *
+     * @var array
+     */
+    public $components = array('Paginator');
 
-/**
- * index method
- *
- * @return void
- */
-	public function index() {
-		$this->Transaction->recursive = 0;
-		$this->set('transactions', $this->Paginator->paginate());
-	}
+    /**
+     * index method
+     *
+     * @return void
+     */
+    public function index() {
+        $this->Transaction->recursive = 0;
+        $this->set('transactions', $this->Paginator->paginate());
+    }
 
-/**
- * view method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
-	public function view($id = null) {
-		if (!$this->Transaction->exists($id)) {
-			throw new NotFoundException(__('Invalid transaction'));
-		}
-		$options = array('conditions' => array('Transaction.' . $this->Transaction->primaryKey => $id));
-		$this->set('transaction', $this->Transaction->find('first', $options));
-	}
+    /**
+     * view method
+     *
+     * @throws NotFoundException
+     * @param string $id
+     * @return void
+     */
+    public function view($id = null) {
+        if (!$this->Transaction->exists($id)) {
+            throw new NotFoundException(__('Invalid transaction'));
+        }
+        $options = array('conditions' => array('Transaction.' . $this->Transaction->primaryKey => $id));
+        $this->set('transaction', $this->Transaction->find('first', $options));
+    }
 
-/**
- * add method
- *
- * @return void
- */
-	public function add($userID = null) {
-                if($userID != null ) {
-                    $options = array('conditions' => array('id' => $this->Auth->user('id')));
-                    $users = $this->Transaction->User->find('list', $options);
-                    $options = array('conditions' => array('user_id' => $this->Auth->user('id')));
-                    $timetables = $this->Transaction->Timetable->find('list', $options);
-                } else {
-                    $users = $this->Transaction->User->find('list');
-                    $timetables = $this->Transaction->Timetable->find('list');
-                }
+    /**
+     * add method
+     *
+     * @return void
+     */
+    public function add() {
+        $options = array(
+            'joins' => array(
+                array(
+                    'table' => 'users',
+                    'alias' => 'UserJoin',
+                    'type' => 'LEfT',
+                    'conditions' => array(
+                        'UserJoin.id = user_id'
+                    )
+                )
+            ),
+            'conditions' => '',
+            'fields' => array('concat(UserJoin.username," ",timetable.id) as id'),
+            'order' => 'timetable.id ASC',
+        );
 
-		if ($this->request->is('post')) {
-			$this->Transaction->create();
-			if ($this->Transaction->save($this->request->data)) {
-				$this->Session->setFlash(__('The transaction has been saved.'));
-				return $this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The transaction could not be saved. Please, try again.'));
-			}
-		}
-		
-		
-		$this->set(compact('users', 'timetables'));
-	}
+        $users = $this->Transaction->User->find('list');
 
-/**
- * edit method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
-	public function edit($id = null) {
-		if (!$this->Transaction->exists($id)) {
-			throw new NotFoundException(__('Invalid transaction'));
-		}
-		if ($this->request->is(array('post', 'put'))) {
-			if ($this->Transaction->save($this->request->data)) {
-				$this->Session->setFlash(__('The transaction has been saved.'));
-				return $this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The transaction could not be saved. Please, try again.'));
-			}
-		} else {
-			$options = array('conditions' => array('Transaction.' . $this->Transaction->primaryKey => $id));
-			$this->request->data = $this->Transaction->find('first', $options);
-		}
-		$users = $this->Transaction->User->find('list');
-		$timetables = $this->Transaction->Timetable->find('list');
-		$this->set(compact('users', 'timetables'));
-	}
+        $timetables = $this->Transaction->Timetable->find('all', $options);
 
-/**
- * delete method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
-	public function delete($id = null) {
-		$this->Transaction->id = $id;
-		if (!$this->Transaction->exists($id)) {
-			throw new NotFoundException(__('Invalid transaction'));
-		}
-		$this->request->allowMethod('post', 'delete');
-		if ($this->Transaction->delete()) {
-			$this->Session->setFlash(__('The transaction has been deleted.'));
-		} else {
-			$this->Session->setFlash(__('The transaction could not be deleted. Please, try again.'));
-		}
-		return $this->redirect(array('action' => 'index'));
-	}
+        if ($this->request->is('post')) {
+            $this->Transaction->create();
+            if ($this->Transaction->save($this->request->data)) {
+                $this->Session->setFlash(__('The transaction has been saved.'));
+                return $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('The transaction could not be saved. Please, try again.'));
+            }
+        }
+
+
+        $this->set(compact('users', 'timetables'));
+    }
+
+    /**
+     * edit method
+     *
+     * @throws NotFoundException
+     * @param string $id
+     * @return void
+     */
+    public function edit($id = null) {
+        if (!$this->Transaction->exists($id)) {
+            throw new NotFoundException(__('Invalid transaction'));
+        }
+        if ($this->request->is(array('post', 'put'))) {
+            if ($this->Transaction->save($this->request->data)) {
+                $this->Session->setFlash(__('The transaction has been saved.'));
+                return $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('The transaction could not be saved. Please, try again.'));
+            }
+        } else {
+            $options = array('conditions' => array('Transaction.' . $this->Transaction->primaryKey => $id));
+            $this->request->data = $this->Transaction->find('first', $options);
+        }
+        $users = $this->Transaction->User->find('list');
+        $timetables = $this->Transaction->Timetable->find('list');
+        $this->set(compact('users', 'timetables'));
+    }
+
+    /**
+     * delete method
+     *
+     * @throws NotFoundException
+     * @param string $id
+     * @return void
+     */
+    public function delete($id = null) {
+        $this->Transaction->id = $id;
+        if (!$this->Transaction->exists($id)) {
+            throw new NotFoundException(__('Invalid transaction'));
+        }
+        $this->request->allowMethod('post', 'delete');
+        if ($this->Transaction->delete()) {
+            $this->Session->setFlash(__('The transaction has been deleted.'));
+        } else {
+            $this->Session->setFlash(__('The transaction could not be deleted. Please, try again.'));
+        }
+        return $this->redirect(array('action' => 'index'));
+    }
+
 }

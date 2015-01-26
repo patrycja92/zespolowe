@@ -24,7 +24,7 @@ class AdvancesController extends AppController {
             if($this->sprawdzam_dostep(1)){
                 $this->Advance->recursive = 0;
 		$this->set('advances', $this->Paginator->paginate());
-            } else {
+            } else  {
                 $this->Advance->recursive = 0;
                 $options = array('conditions' => array('user_id' => $this->Auth->user('id')));
                 $this->set('advances', $this->Advance->find('all', $options),$this->Paginator->paginate());
@@ -55,6 +55,11 @@ class AdvancesController extends AppController {
  * @return void
  */
 	public function add() {
+            if(!$this ->sprawdzam_dostep(1)) {
+                $options = array('conditions' => array('id' => $this->Auth->user('id')));
+            } else {
+                $options = null;
+            }
 		if ($this->request->is('post')) {
 			$this->Advance->create();
 			if ($this->Advance->save($this->request->data)) {
@@ -64,7 +69,8 @@ class AdvancesController extends AppController {
 				$this->Session->setFlash(__('The advance could not be saved. Please, try again.'));
 			}
 		}
-		$users = $this->Advance->User->find('list');
+		$users = $this->Advance->User->find('list', $options);
+            
 		$this->set(compact('users'));
 	}
 
